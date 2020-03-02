@@ -43,12 +43,6 @@ function draw(){
     righteye();
     rightpupil1();
     rightpupil2();
-    rightinnereye();
-    rightoutereye();
-    rsmile();
-    lsmile();
-    reyelid();
-    leyelid();
 }
 
 function mouseClicked(){
@@ -913,92 +907,6 @@ function rightpupil1(){
     circle(538.8,243.15,26.13);
 }
 
-function rightinnereye(){
-    beginShape();
-    noStroke();
-    fill(152,102,95);
-    vertex(505.55,243.38);
-    vertex(503.51,245.55);
-    vertex(501.47,248.11);
-    vertex(499.17,250.66);
-    vertex(497.89,251.94);
-    vertex(496.62,253.09);
-    vertex(495.09,254.62);
-    vertex(494.06,256.02);
-    vertex(493.53,257.3);
-    vertex(493.53,259.98);
-    vertex(494.32,261.38);
-    vertex(497.13,261.89);
-    vertex(500.06,261.89);
-    vertex(503.51,261.89);
-    vertex(512.96,261.89);
-    vertex(511.16,260.74);
-    vertex(510.14,259.9);
-    vertex(508.73,258.82);
-    vertex(507.32,257.26);
-    vertex(506.24,255.64);
-    vertex(505.4,253.96);
-    vertex(504.97,252.33);
-    vertex(504.67,250.83);
-    vertex(504.49,249.33);
-    vertex(504.49,248.25);
-    vertex(504.49,247.59);
-    vertex(504.49,246.75);
-    vertex(504.79,245.61);
-    vertex(505.04,244.76);
-    endShape();
-}
-
-function rightoutereye(){
-    beginShape();
-    noStroke();
-    fill(152,102,95);
-    vertex(549.78,228.51);
-    vertex(552.33,229.88);
-    vertex(554.85,231.79);
-    vertex(556.33,233.12);
-    vertex(557,233.65);
-    vertex(558.5,235.15);
-    vertex(559.94,236.71);
-    vertex(561.39,238.28);
-    vertex(562.47,240.14);
-    vertex(563.07,241.1);
-    vertex(563.79,242.48);
-    vertex(564.03,243.51);
-    vertex(564.03,245.13);
-    vertex(563.67,246.27);
-    vertex(562.83,247.47);
-    vertex(561.27,249.39);
-    vertex(559.46,251.49);
-    vertex(555.98,254.02);
-    vertex(553.1,255.52);
-    vertex(548.83,257.08);
-    vertex(544.92,258.64);
-    vertex(540.9,259.72);
-    vertex(536.45,260.74);
-    vertex(530.37,261.8);
-    vertex(533.51,261.89);
-    vertex(537.73,261.53);
-    vertex(541.56,260.86);
-    vertex(544.53,260.15);
-    vertex(548.45,258.57);
-    vertex(554.83,255.51);
-    vertex(559.17,253.34);
-    vertex(562.87,251.04);
-    vertex(565.3,249.38);
-    vertex(566.57,247.6);
-    vertex(567.21,245.3);
-    vertex(567.21,243.38);
-    vertex(565.81,241.6);
-    vertex(563.51,238.91);
-    vertex(561.6,236.87);
-    vertex(558.66,234.19);
-    vertex(554.57,231.26);
-    vertex(552.33,229.88);
-    vertex(549.78,228.51);
-    endShape();
-}
-
 function rightpupil2(){
     noStroke();
     fill(0);
@@ -1009,11 +917,6 @@ function leftpupil2(){
     noStroke();
     fill(0);
     circle(389.29,261.89,11.48);
-}
-
-function reyelid(){
-    stroke(240,201,163);
-    strokeWeight(1);
 }
 
 function windowResized(){
