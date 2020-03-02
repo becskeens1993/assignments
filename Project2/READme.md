@@ -1,1 +1,1 @@
-[My Game Link](https://becskeens1993.github.io/assignments/Project2/game.html)
+[My Game Link](https://github.com/becskeens1993/assignments/Project2/game.html)
